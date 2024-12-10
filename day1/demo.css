@@ -8,5 +8,7 @@ td{
     font-weight: bold;
 }
 body{
-    background-image: url(https://i.pinimg.com/736x/19/b1/52/19b152898475a6f5f99b62b62f3164f8.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2023/02/01/21/40/pink-7761356_1280.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
