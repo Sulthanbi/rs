@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    
+   
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+.c1{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+
+}
+.c2{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+}
+
+
+.c3{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+}
+
+.c4{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+}
+
+.c5{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+}
+
+.c6{
+    display: inline-block;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 50px;
+    max-width: 1200px;
+    font-display: smaller;
+}
+
+
+
+
+
+
+
+
+
+
+input{
+    background-color: rgb(62, 235, 10);
+}
+button{
+    background-color: rgb(238, 144, 21);
+}
+a{
+    text-decoration: none; color: black;
+}
