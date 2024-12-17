@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+table {
+    border: 3px solid #eeeded;
+
+}
+
+
+td {
+    width: 60px; 
+    height: 60px; 
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem; 
+    font-weight: bold;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.red {
+    background-color: rgb(245, 144, 21);
+}
+
+td:hover {
+    background-color: rgb(216, 215, 215); 
+}
+
+.black {
+    color: black;
+}
+
+.white-piece {
+    color: lightgray;
+}
