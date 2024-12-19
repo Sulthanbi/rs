@@ -1,7 +1,39 @@
 body{
+    background-color: black;
+}
+.nav{
+    position: relative;
+    display: flex;
+}
+img{
+    height: 70px;
+    width: 70px;
+    display: flex;
+    position: relative;
+}
+.el{
+border: 1px solid black;
+display:flex;
+gap:30px;
+padding:10px;
+text-align: center;
+background-color:black ;
+
+}
+.btn{
+    color:white;
+    padding: 5px;
+    
+
+}
+p:hover{
+    background-color: rgb(223, 195, 162);
+}
+
+
+
+.main{
     text-align: center;
-    background-color: rgb(11, 19, 26);
-    margin-top: 5%;
 }
 
 .box{ 

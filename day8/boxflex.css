@@ -1,0 +1,542 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-top: 75px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 11px rgb(146, 3, 3) inset;
+    margin-bottom: 51px;
+}
+.main-container>h1{
+    font-size:25px;
+    color: rgba(3, 70, 90, 0.685);
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 0px 3px rgba(9, 182, 212, 0.658);
+}
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #181616;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.card1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(214, 157, 157);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card1:hover{
+    padding: 7px;
+}
+.card1:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.card2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8fe9f0;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(235, 156, 156);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card2:hover{
+    padding: 7px;
+}
+.card2:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.card3{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(194, 125, 182);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(238, 165, 165);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card3:hover{
+    padding: 7px;
+}
+.card3:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.card4{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card4:hover{
+    padding: 7px;
+}
+.card4:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.card4{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card4:hover{
+    padding: 7px;
+}
+.card4:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.card5{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(137, 197, 235);
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card5:hover{
+    padding: 7px;
+}
+.card5:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card5{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(147, 167, 187);
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card5:hover{
+    padding: 7px;
+}
+.card5:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card6{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(218, 190, 190);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card6:hover{
+    padding: 7px;
+}
+.card6:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card7{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(172, 253, 189);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card7:hover{
+    padding: 7px;
+}
+.card7:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card8{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(197, 197, 219);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card8:hover{
+    padding: 7px;
+}
+.card8:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card9{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(250, 171, 151);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card9:hover{
+    padding: 7px;
+}
+.card9:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card10{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(214, 182, 182);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card10:hover{
+    padding: 7px;
+}
+.card10:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card11{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(109, 228, 172);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card11:hover{
+    padding: 7px;
+}
+.card11:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card12{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 189, 219);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card12:hover{
+    padding: 7px;
+}
+.card12:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card13{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: plum;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card13:hover{
+    padding: 7px;
+}
+.card13:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card14{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(248, 207, 145);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card14:hover{
+    padding: 7px;
+}
+.card14:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card15{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(243, 171, 171);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card15:hover{
+    padding: 7px;
+}
+.card15:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card16{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(151, 195, 245);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card16:hover{
+    padding: 7px;
+}
+.card16:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card17{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(232, 240, 128);
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card17:hover{
+    padding: 7px;
+}
+.card17:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card18{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card18:hover{
+    padding: 7px;
+}
+.card18:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+.card19{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(247, 164, 233);
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card19:hover{
+    padding: 7px;
+}
+.card19:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal; 
+
+}
+.card20{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 35px rgb(64, 54, 54);
+    margin-bottom: 51px;
+    cursor: pointer;
+}
+.card20:hover{
+    padding: 7px;
+}
+.card20:hover .box{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;    
+}
+
