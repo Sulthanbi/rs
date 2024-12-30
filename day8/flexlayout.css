@@ -19,12 +19,18 @@ header {
     padding: 10px 20px;
 }
 
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    /* align-items: center; */
+
 }
-.nav ,li :hover{
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+li :hover{
     background-color: rgb(245, 244, 188);
 }
 .nav li{
@@ -57,7 +63,7 @@ header {
     border-radius: 5px;
 }
 
-.hero {
+.section {
     display: flex;
     align-items: center;
     justify-content: space-between;

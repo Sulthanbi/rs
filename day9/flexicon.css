@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+img{
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+b{
+    color: green;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* max-width: 300px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    /* column-gap: 4%; */
+}
+
+aside{
+    display: flex;
+    column-gap: 1vw;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.space{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* .space{
+    justify-content: space-between;
+    display: flex;
+
+} */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+
+
+
+/* .card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card .category {
+    font-size: 14px;
+    color: #777;
+}
+
+.card .installs {
+    font-size: 12px;
+    color: #555;
+}
+
+.card a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+ */
