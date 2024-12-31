@@ -4,15 +4,29 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
-
-.container {
+.icons{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    box-shadow: #e1dddd;
+}
+.contanier1 {
+    flex-basis:50% 50%;
+    gap: 10px;
     justify-content: center;
     padding: 10px;
+    width: 33%;
     
 }
+
+.container2{
+    flex-basis:50% 50% ;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
 img{
     margin-left: 2vw;
     margin-top: 2vh;
@@ -24,12 +38,14 @@ b{
 .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     /* max-width: 300px; */
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: row; */
+    flex-direction: column; 
     row-gap: 5vh;
-    /* column-gap: 4%; */
+    column-gap: 8%;
+    justify-content: space-between;
 }
 
 aside{

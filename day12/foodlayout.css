@@ -9,6 +9,10 @@
     background-color: white;
     z-index: 10;
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 body{
