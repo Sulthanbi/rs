@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .btn {
+            border: 2px solid black;
+        
+            height: 70vh;
+            padding: 20px 50px;
+           
+            align-items: center;
+            justify-content: center;
+        }
+
+        button {
+            text-align: center;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            height: 4vh;
+            width: 15vw;
+            color: rgb(212, 202, 202);
+            background-color: black;
+        }
+
+        .img {
+            margin-top: 20px;
+            transition: transform 0.5s ease;
+        }
+
+        
+        .tran:hover~.img {
+            transform: translateX(100px);
+        }
+
+        .pot:hover ~ .img {
+            transform: rotate(180deg);
+        }
+
+        .sca:hover ~ .img {
+            transform: scale(1.2);
+        }
+
+        .ske:hover ~ .img {
+            transform: skew(10deg, 10deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">
+        <button class="tran">Translate</button>
+        <button class="pot">Rotate</button>
+        <button class="sca">Scale</button>
+        <button class="ske">Skew</button>
+        <div class="img">
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%" height="auto">
+        </div>
+    </div>
+</body>
+</html>
